@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity">
+
+   <androidx.core.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <com.google.android.material.appbar.AppBarLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@color/white"
+               android:elevation="0dp">
+
+               <androidx.appcompat.widget.Toolbar
+                   android:layout_width="match_parent"
+                   android:layout_height="?attr/actionBarSize">
+
+                   <LinearLayout
+                       android:layout_marginRight="10dp"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:gravity="center_vertical|center_horizontal">
+
+                       <ImageView
+                           android:id="@+id/iv_finish"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/ic_left"/>
+
+                       <TextView
+                           android:layout_weight="1"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Create post"
+                           android:textSize="18sp"
+                           android:textColor="@color/black"/>
+
+                       <Button
+                           android:id="@+id/btn_post"
+                           android:layout_width="80dp"
+                           android:layout_height="40dp"
+                           android:text="POST"
+                           android:textColor="@color/white"
+                           app:backgroundTint="@null"
+                           android:background="@drawable/shape_rounded_bottom"/>
+                   </LinearLayout>
+               </androidx.appcompat.widget.Toolbar>
+           </com.google.android.material.appbar.AppBarLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@color/black"/>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="10dp"
+               android:gravity="center_horizontal|center_vertical|left">
+
+               <com.google.android.material.imageview.ShapeableImageView
+                   android:layout_width="45dp"
+                   android:layout_height="45dp"
+                   android:src="@drawable/im_user_1"
+                   app:shapeAppearanceOverlay="@style/circle"/>
+
+               <TextView
+                   android:layout_marginStart="10dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Rustamov Odilbek"
+                   android:textColor="@color/black"
+                   android:textSize="18sp"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="10dp"
+               android:layout_marginEnd="10dp">
+
+               <EditText
+                   android:layout_weight="1"
+                   android:id="@+id/edit_link"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:background="@android:color/transparent"
+                   android:hint="What's on your mind?"
+                   android:textSize="18sp"/>
+
+               <ImageView
+                   android:id="@+id/iv_check"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_baseline_check_24"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:visibility="gone"
+               android:id="@+id/link_preview"
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+           <ImageView
+               android:id="@+id/iv_post_link"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:adjustViewBounds="true"
+               android:src="@drawable/im_post_1"/>
+
+           <TextView
+               android:id="@+id/tv_link_name_1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="KURBONOVXURSHID.MEDIUM.COM"
+               android:textColor="#919191"
+               android:textSize="18sp"/>
+
+           <TextView
+               android:id="@+id/tv_link_ebout_1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Android(Java, Kotlin) - Course Plan"
+               android:textColor="@color/black"
+               android:textSize="16sp"/>
+
+
+           </LinearLayout>
+
+
+       </LinearLayout>
+   </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

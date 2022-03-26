@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/B - 13 VAZIFALAR/5 - modul/9 - dars/Facebook/app/src/main/res/drawable/ic_public.xml" value="0.290625" />
+        <entry key="..\:/B - 13 VAZIFALAR/5 - modul/9 - dars/Facebook/app/src/main/res/drawable/live.xml" value="0.290625" />
+        <entry key="..\:/B - 13 VAZIFALAR/5 - modul/9 - dars/Facebook/app/src/main/res/drawable/shape_border_circle.xml" value="0.290625" />
+        <entry key="..\:/B - 13 VAZIFALAR/5 - modul/9 - dars/Facebook/app/src/main/res/drawable/shape_rounded_border.xml" value="0.290625" />
+        <entry key="..\:/B - 13 VAZIFALAR/5 - modul/9 - dars/Facebook/app/src/main/res/drawable/shape_rounded_bottom.xml" value="0.290625" />
+        <entry key="..\:/B - 13 VAZIFALAR/5 - modul/9 - dars/Facebook/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/B - 13 VAZIFALAR/5 - modul/9 - dars/Facebook/app/src/main/res/layout/activity_post.xml" value="0.176" />
+        <entry key="..\:/B - 13 VAZIFALAR/5 - modul/9 - dars/Facebook/app/src/main/res/layout/item_feed_post.xml" value="0.264" />
+        <entry key="..\:/B - 13 VAZIFALAR/5 - modul/9 - dars/Facebook/app/src/main/res/layout/item_feed_story.xml" value="0.27447916666666666" />
+        <entry key="..\:/B - 13 VAZIFALAR/5 - modul/9 - dars/Facebook/app/src/main/res/layout/item_header_view.xml" value="0.264" />
+        <entry key="..\:/B - 13 VAZIFALAR/5 - modul/9 - dars/Facebook/app/src/main/res/layout/item_post_link.xml" value="0.27445652173913043" />
+        <entry key="..\:/B - 13 VAZIFALAR/5 - modul/9 - dars/Facebook/app/src/main/res/layout/item_story_view.xml" value="0.536" />
+        <entry key="..\:/B - 13 VAZIFALAR/5 - modul/9 - dars/Facebook/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.290625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
