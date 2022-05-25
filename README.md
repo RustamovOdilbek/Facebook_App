@@ -1,7 +1,6 @@
 # Facebook_App
 Facebook_App
-<img align=left width=250 height=450 src="[https://user-images.githubusercontent.com/96547643/165016485-90014adc-ed1e-4097-9717-b51624978add.jpg](https://user-images.githubusercontent.com/106246180/170269238-87e19444-80b3-4d14-adec-946866d9ad8a.jpg)"/>
-<img align=left width=250 height=450 src="https://user-images.githubusercontent.com/96547643/165016600-34d89f0a-92ae-45e8-ab31-5d947c157266.jpg"/>
+<img align=left width=250 height=450 src="https://user-images.githubusercontent.com/106246180/170269238-87e19444-80b3-4d14-adec-946866d9ad8a.jpg"/>
 <img align=left width=250 height=450 src="https://user-images.githubusercontent.com/96547643/165016610-6076510b-66ee-40af-87f7-0504f22746f3.jpg"/>
 <img align=left width=20 height=match_parent />
 <img align=left width=250 height=450 src="https://user-images.githubusercontent.com/96547643/165016619-a5300521-2f82-4fbc-abdd-0b160320d607.jpg"/>
